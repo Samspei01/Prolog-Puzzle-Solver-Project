@@ -77,8 +77,8 @@ To use this Prolog solver, you will need to:
 
 ?- initial_board(Board),
    heuristic(Board).
-
-
+```
+```Puzzle Grid
 +---+---+---+---+
 | A1 | A2 | B1 | B2 |
 +---+---+---+---+
@@ -95,7 +95,7 @@ A1, A2, B1, B2 are the cells in the top-left 2x2 subgrid.
 C1, C2, D1, D2 are the cells in the top-right 2x2 subgrid.
 A3, A4, B3, B4 are the cells in the bottom-left 2x2 subgrid.
 C3, C4, D3, D4 are the cells in the bottom-right 2x2 subgrid.
-
+```
 ##Conclusion
 
 This project demonstrates the application of Prolog in solving a classical CSP. Prolog's built-in support for logical reasoning and constraint satisfaction makes it an ideal choice for such problems. The use of different search strategies highlights the versatility of Prolog in exploring various approaches to problem-solving
