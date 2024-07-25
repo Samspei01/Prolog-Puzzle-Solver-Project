@@ -75,28 +75,7 @@ Future Work
 Improve the heuristic function for more efficient solving.
 Extend the solver to handle larger grids.
 Add a graphical interface for better visualization of the solving process.
+
 Conclusion
 This project demonstrates the application of Prolog in solving a classical CSP. Prolog's built-in support for logical reasoning and constraint satisfaction makes it an ideal choice for such problems. The use of different search strategies highlights the versatility of Prolog in exploring various approaches to problem-solving.
 
-draw the puzzel
-ChatGPT
-Certainly! Here is a visual representation of the 4x4 puzzle grid layout:
-
-diff
-Copy code
-+---+---+---+---+
-| A1 | A2 | B1 | B2 |
-+---+---+---+---+
-| C1 | C2 | D1 | D2 |
-+---+---+---+---+
-| A3 | A4 | B3 | B4 |
-+---+---+---+---+
-| C3 | C4 | D3 | D4 |
-+---+---+---+---+
-In this grid:
-
-A1, A2, B1, B2 are the cells in the top-left 2x2 subgrid.
-C1, C2, D1, D2 are the cells in the top-right 2x2 subgrid.
-A3, A4, B3, B4 are the cells in the bottom-left 2x2 subgrid.
-C3, C4, D3, D4 are the cells in the bottom-right 2x2 subgrid.
-Each cell in the grid must contain a number from 1 to 4, ensuring that each row, column, and 2x2 subgrid contains unique numbers. This constraint ensures the puzzle adheres to the rules of the 4x4 Sudoku-like challenge.
